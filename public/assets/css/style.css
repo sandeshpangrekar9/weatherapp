@@ -1,0 +1,96 @@
+html {
+  font-family: sans-serif;
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #ffb3b3;
+}
+
+.main-section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main-content{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#location-list {
+    float: left;
+    list-style: none;
+    margin-top: -3px;
+    padding: 0;
+    width: 90%;
+    position: absolute;
+}
+
+#location-list li {
+    padding: 10px;
+    background: #f0f0f0;
+    border-bottom: #bbb9b9 1px solid;
+}
+
+#location-list li:hover {
+    background: #ece3d2;
+    cursor: pointer;
+}
+
+#location {
+    padding: 10px;
+    border: #a8d4b1 1px solid;
+    border-radius: 4px;
+}
+
+#suggesstion-box{
+  margin-bottom: 30px;
+}
+
+#current-weather-section{
+    display: none;
+}
+
+#current-weather-table td {
+    width: 50%;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#next-24-hours-section{
+    display: none;
+}
+
+#next-24-hours-table td{
+    width: 33%;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+#next-7-days-section{
+    display: none;
+}
+
+#next-7-days-table td{
+    width: 33%;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.table-heading{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#spinner{
+    display: none;
+    text-align: center !important;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#spinner-img{
+    width: 100px;
+    height: 100px;
+}
