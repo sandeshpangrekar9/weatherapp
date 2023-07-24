@@ -3,7 +3,7 @@ Weather Forcast Application:-
 
 In order to build our application, we have used PHP 8.2.6 version. Please enter below command in git bash to clone the git repo. To run the project on local, place the project root folder under xampp/htdocs (for Xampp) OR under wamp64/www (for WampServer) folder.
 
-$ git clone https://github.com/sandeshpangrekar9/weatherapp-repo.git
+$ git clone https://github.com/sandeshpangrekar9/weatherapp.git
 
 After cloning git repo, we can access the application using 'http://localhost/weatherapp/' url from browser.
 We can also test it out using PHP's built-in web server as below:
